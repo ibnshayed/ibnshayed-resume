@@ -17,48 +17,51 @@ import { jsPDF } from "jspdf";
 export default function HomePage() {
   // const ref = useRef();
   const printDocument = () => {
-    let divContents = window.document.getElementById("divToPrint").innerHTML;
-    // window.open();
-    var is_chrome = Boolean(window.chrome);
-    window.document.write("<html>");
-    window.document.write("<head>");
-    window.document.write(
-      "<script src='https://cdn.tailwindcss.com'></script>"
-    );
-    window.document.write("</head>");
-    window.document.write("<body>");
-    window.document.write("<style>");
-    window.document.write("@page {margin-top: 0;margin-bottom: 0;}");
-    window.document.write(
-      "body{ padding-top: 2rem; padding-bottom: 2rem; -webkit-print-color-adjust: exact; }"
-    );
-    window.document.write("</style>");
-    window.document.write(divContents);
-    window.document.write("</body></html>");
-    window.document.close();
-    window.focus();
-    if (is_chrome) {
-      window.onload = function () {
-        const chromeDelay = setTimeout(function () {
-          // wait until all resources loaded
-          window.print(); // change window to winPrint
-          window.close(); // change window to winPrint
-          window.location.reload();
-          window.onunload = function () {
-            //close print preview
-            //successToast('List printed successfully!')
-          };
-          clearTimeout(chromeDelay);
-        }, 200);
-      };
-    } else {
-      window.print();
-      window.close();
-      window.location.reload();
-      window.onunload = function () {
-        //close print preview
-        //successToast('List printed successfully!')
-      };
+    if (typeof window !== "undefined") {
+      let divContents = window.document.getElementById("divToPrint")!.innerHTML;
+      // window.open();
+      // var is_chrome = Boolean(window.chrome);
+      var is_chrome = false;
+      window.document.write("<html>");
+      window.document.write("<head>");
+      window.document.write(
+        "<script src='https://cdn.tailwindcss.com'></script>"
+      );
+      window.document.write("</head>");
+      window.document.write("<body>");
+      window.document.write("<style>");
+      window.document.write("@page {margin-top: 0;margin-bottom: 0;}");
+      window.document.write(
+        "body{ padding-top: 2rem; padding-bottom: 2rem; -webkit-print-color-adjust: exact; }"
+      );
+      window.document.write("</style>");
+      window.document.write(divContents);
+      window.document.write("</body></html>");
+      window.document.close();
+      window.focus();
+      if (is_chrome) {
+        window.onload = function () {
+          const chromeDelay = setTimeout(function () {
+            // wait until all resources loaded
+            window.print(); // change window to winPrint
+            window.close(); // change window to winPrint
+            window.location.reload();
+            window.onunload = function () {
+              //close print preview
+              //successToast('List printed successfully!')
+            };
+            clearTimeout(chromeDelay);
+          }, 200);
+        };
+      } else {
+        window.print();
+        window.close();
+        window.location.reload();
+        window.onunload = function () {
+          //close print preview
+          //successToast('List printed successfully!')
+        };
+      }
     }
   };
 
