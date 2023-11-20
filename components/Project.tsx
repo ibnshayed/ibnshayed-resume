@@ -9,7 +9,7 @@ export default function Project() {
 
       <div>
         <p>
-          Please Visit my Portfolio’s work section:{" "}
+          Please Visit my Portfolio’s work section:&nbsp
           <Link
             className="text-blue-600"
             href={"https://ibnshayed.github.io/#works"}

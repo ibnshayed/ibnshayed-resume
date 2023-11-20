@@ -29,7 +29,7 @@ export default function Skill() {
         Spring Boot, Java, C/C++
       </p>
       <p>
-        <span className="font-bold">Problem solving:</span>{" "}
+        <span className="font-bold">Problem solving:</span>&nbsp
         <Link
           className="text-blue-600"
           href={"https://www.stopstalk.com/user/profile/ibnshayed"}

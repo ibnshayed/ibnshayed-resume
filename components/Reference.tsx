@@ -11,28 +11,30 @@ export default function Reference() {
           <p className="text-blue-900">● Md. Monirul Hasan</p>
           <p className="indent-4">Senior Lecturer, Southeast University</p>
           <p className="indent-4">
-            Linkedin:{" "}
+            Linkedin:&nbsp
             <Link
               className="text-blue-600"
               href={"https://www.linkedin.com/in/monirul-hasan"}
               target="_blank"
             >
               @monirul-hasan
-            </Link>{" "}
+            </Link>
+            &nbsp
           </p>
         </div>
         <div>
           <p className="text-blue-900">● Habibur Rahman</p>
           <p className="indent-4">Sr. Manager, Technology at Jatri</p>
           <p className="indent-4">
-            Linkedin:{" "}
+            Linkedin:&nbsp
             <Link
               className="text-blue-600"
               href={"https://www.linkedin.com/in/iamhabibur"}
               target="_blank"
             >
               @iamhabibur
-            </Link>{" "}
+            </Link>
+            &nbsp
           </p>
         </div>
       </div>

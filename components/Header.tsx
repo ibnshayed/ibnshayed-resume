@@ -11,19 +11,19 @@ export default function Header() {
           Senior Software Engineer
         </p>
         <p>
-          Mobile:{" "}
+          Mobile:&nbsp
           <Link className="text-blue-600" href={"tel:+8801685-966035"}>
             +880 1685-966035
           </Link>
         </p>
         <p>
-          Email:{" "}
+          Email:&nbsp
           <Link className="text-blue-600" href={"mailto:ibnshayed@gmail.com"}>
             ibnshayed@gmail.com
           </Link>
         </p>
         <p>
-          Portfolio:{" "}
+          Portfolio:&nbsp
           <Link
             className="text-blue-600"
             href={"https://ibnshayed.github.io/"}
@@ -33,7 +33,7 @@ export default function Header() {
           </Link>
         </p>
         <p>
-          Linkedin:{" "}
+          Linkedin:&nbsp
           <Link
             className="text-blue-600"
             href={"https://linkedin.com/in/ibnshayed/"}
@@ -43,7 +43,7 @@ export default function Header() {
           </Link>
         </p>
         <p>
-          Github:{" "}
+          Github:&nbsp
           <Link
             className="text-blue-600"
             href={"https://www.github.com/ibnshayed"}
