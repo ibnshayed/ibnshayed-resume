@@ -18,8 +18,8 @@ export default function HomePage() {
     if (typeof window !== "undefined") {
       let divContents = window.document.getElementById("divToPrint")!.innerHTML;
       // window.open();
-      var is_chrome = Boolean(window.chrome);
-      // var is_chrome = false;
+      // var is_chrome = Boolean(window.chrome);
+      var is_chrome = true;
       window.document.write("<html>");
       window.document.write("<head>");
       window.document.write(
