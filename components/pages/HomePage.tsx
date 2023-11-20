@@ -11,8 +11,6 @@ import Skill from "../Skill";
 import Project from "../Project";
 import Language from "../Language";
 import Reference from "../Reference";
-import html2canvas from "html2canvas";
-import { jsPDF } from "jspdf";
 
 export default function HomePage() {
   // const ref = useRef();
