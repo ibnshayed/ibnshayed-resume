@@ -30,7 +30,7 @@ export default function Career() {
           Transport Project’s Backend Team. Here my responsibility is to give a
           better back-end solution, give guidelines to the junior team members,
           code review, schema design etc. I also did some projects by React.js,
-          Vue.js, and Nuxt.js. Visit the Jatri website:&nbsp
+          Vue.js, and Nuxt.js. Visit the Jatri website:{" "}
           <Link
             className="text-blue-600"
             href={"https://www.jatri.co/"}
@@ -53,30 +53,27 @@ export default function Career() {
               Frontend Projects
             </p>
             <p>
-              1. Jatri Rental - (React.js) -&nbsp
+              1. Jatri Rental - (React.js) -{" "}
               <Link
                 className="text-blue-600"
                 href={"https://rental.jatri.co/"}
                 target="_blank"
               >
                 https://rental.jatri.co/
-              </Link>
-              &nbsp
+              </Link>{" "}
             </p>
             <p>
-              2. Jatri Ticket - (Nuxt.js) -&nbsp
+              2. Jatri Ticket - (Nuxt.js) -{" "}
               <Link
                 className="text-blue-600"
                 href={"https://ticket.jatri.co/"}
                 target="_blank"
               >
                 https://ticket.jatri.co/
-              </Link>
-              &nbsp
+              </Link>{" "}
             </p>
             <p>
-              3. Brtc Online Ticketing System( Govt. Project ) - (Nuxt.js)
-              -&nbsp
+              3. Brtc Online Ticketing System( Govt. Project ) - (Nuxt.js) -{" "}
               <Link
                 className="text-blue-600"
                 href={"https://ticketing-brtc.gov.bd/"}
@@ -104,7 +101,7 @@ export default function Career() {
           Here, my responsibility is to build a fully dynamic multi-vendor
           E-Commerce solution from scratch. I have designed the database and
           developed the back-end with Python, Django, Django Rest Framework.
-          Website:&nbsp
+          Website:{" "}
           <Link
             className="text-blue-600"
             href={"http://bluebayit.com/"}
@@ -128,7 +125,7 @@ export default function Career() {
           I worked here for about 4 months as an intern. Mainly I worked with
           ReactJS based Oushod Sheba's Admin Portal Website, NextJS based
           e-commerce website, pure HTML, CSS, SCSS and JavaScript-based website.
-          Website:&nbsp
+          Website:{" "}
           <Link
             className="text-blue-600"
             href={"https://oushodsheba.com/"}
